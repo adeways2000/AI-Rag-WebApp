@@ -26,19 +26,12 @@ source venv/Scripts/activate
 
 
 ```bash
-# Run the following commnad
+# Run the following command
 
 python -m uvicorn main:app --reload
 
 ```
 
-open up localhost:
-
-
-```bash
-# Finally run the following command
-python app.py
-```
 
 Now,
 ```bash
@@ -53,11 +46,15 @@ open up localhost:
 - AWS bedrock
 
 
-# AWS-CICD-Deployment-with-Github-Actions
+# 
 
 ## 1. Login to AWS console.
 
 ## 2. Create IAM user for deployment
+
+## 3. Create s3 bucket
+
+## 3. Create the Knowledge base and Vector store, choose the AI model from AWS Bedrock, and sync the S3 bucket with the knowledge base
 
 
 

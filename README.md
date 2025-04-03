@@ -56,5 +56,10 @@ open up localhost:
 
 ## 3. Create the Knowledge base and Vector store, choose the AI model from AWS Bedrock, and sync the S3 bucket with the knowledge base
 
+```bash
+# Run the following command
 
+python -m uvicorn web_app:app --reload
+
+```
 
